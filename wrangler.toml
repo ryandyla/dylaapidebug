@@ -1,3 +1,9 @@
 name = "zva-debug-sink"
 main = "_worker.js"
 compatibility_date = "2024-10-01"
+[observability]
+[observability.logs]
+enabled = false
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
